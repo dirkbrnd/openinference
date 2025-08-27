@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.1.32](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-openai-v0.1.31...python-openinference-instrumentation-openai-v0.1.32) (2025-08-27)
+
+
+### Features
+
+* add cached read semantic conventions to openai sdk ([#1485](https://github.com/dirkbrnd/openinference/issues/1485)) ([2db5918](https://github.com/dirkbrnd/openinference/commit/2db591850259c1ff1fe606151f7f8be1ec1d63a7))
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/dirkbrnd/openinference/issues/1278)) ([2106acf](https://github.com/dirkbrnd/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/dirkbrnd/openinference/issues/1290)) ([4b69fdc](https://github.com/dirkbrnd/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+* instrument OpenAI responses API ([#1521](https://github.com/dirkbrnd/openinference/issues/1521)) ([64cde2b](https://github.com/dirkbrnd/openinference/commit/64cde2b7230bfae3e7f7fb1141708a86ceea6b1a))
+* openai + openai agent support custom tool calls ([#2080](https://github.com/dirkbrnd/openinference/issues/2080)) ([ee8693c](https://github.com/dirkbrnd/openinference/commit/ee8693c3325380440e4af4e0df708851c5598c30))
+* Openai audio + reasoning token counts ([#1547](https://github.com/dirkbrnd/openinference/issues/1547)) ([cbae31b](https://github.com/dirkbrnd/openinference/commit/cbae31b2838234a3fe388a1501caadd281ac545e))
+
+
+### Bug Fixes
+
+* CI Failures For OpenAI & OpenAI Agents ([#1725](https://github.com/dirkbrnd/openinference/issues/1725)) ([69576ca](https://github.com/dirkbrnd/openinference/commit/69576cac4628f7d3b1b36558ad6cf8e4ae65b2d8))
+* CI Failures For OpenAI & OpenAI Agents Follow Up ([#1733](https://github.com/dirkbrnd/openinference/issues/1733)) ([ec1e855](https://github.com/dirkbrnd/openinference/commit/ec1e8552b40c8a04ee2b3b92073e41e405b95293))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* ruff formating fix & bump ruff version in dev requirements ([#1600](https://github.com/dirkbrnd/openinference/issues/1600)) ([076bb79](https://github.com/dirkbrnd/openinference/commit/076bb7966d44fccdb2ab94e6f379ef4ae22c39b1))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/dirkbrnd/openinference/issues/1263)) ([5bfaa90](https://github.com/dirkbrnd/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.31](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-openai-v0.1.30...python-openinference-instrumentation-openai-v0.1.31) (2025-08-18)
 
 
