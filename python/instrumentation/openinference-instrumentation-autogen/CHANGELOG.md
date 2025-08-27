@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.1.10](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-autogen-v0.1.9...python-openinference-instrumentation-autogen-v0.1.10) (2025-08-27)
+
+
+### Features
+
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/dirkbrnd/openinference/issues/1278)) ([2106acf](https://github.com/dirkbrnd/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* **autogen2:** basic tool calling ([#1216](https://github.com/dirkbrnd/openinference/issues/1216)) ([2a638f7](https://github.com/dirkbrnd/openinference/commit/2a638f7ca51a2d77b27a556bed75aa6318aa805b))
+* basic instrumentation for autogen (ag2) ([#1211](https://github.com/dirkbrnd/openinference/issues/1211)) ([e02a055](https://github.com/dirkbrnd/openinference/commit/e02a0553eb84ee253c7931738c5116e0a310194a))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/dirkbrnd/openinference/issues/1290)) ([4b69fdc](https://github.com/dirkbrnd/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+
+
+### Bug Fixes
+
+* **AG2:** CI fix ([#1221](https://github.com/dirkbrnd/openinference/issues/1221)) ([db27dfd](https://github.com/dirkbrnd/openinference/commit/db27dfd0e9eea601cd7e4b1048fe1d35983de019))
+* **autogen2:** tool calling fix ([#1218](https://github.com/dirkbrnd/openinference/issues/1218)) ([c8c9ade](https://github.com/dirkbrnd/openinference/commit/c8c9ade8267e3ba2fa1e48b2d1d77a42444222e4))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/dirkbrnd/openinference/issues/1263)) ([5bfaa90](https://github.com/dirkbrnd/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.9](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-autogen-v0.1.8...python-openinference-instrumentation-autogen-v0.1.9) (2025-04-28)
 
 

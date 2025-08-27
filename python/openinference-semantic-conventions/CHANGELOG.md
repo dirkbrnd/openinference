@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.22](https://github.com/dirkbrnd/openinference/compare/python-openinference-semantic-conventions-v0.1.21...python-openinference-semantic-conventions-v0.1.22) (2025-08-27)
+
+
+### Features
+
+* Add prompt-related semantic conventions ([#1244](https://github.com/dirkbrnd/openinference/issues/1244)) ([4f2f842](https://github.com/dirkbrnd/openinference/commit/4f2f842f3c23f3269ea902054b0c9d9d23928285))
+* Add semantic conventions for agent and graph attributes ([#1748](https://github.com/dirkbrnd/openinference/issues/1748)) ([5f90a80](https://github.com/dirkbrnd/openinference/commit/5f90a8014c216a821c299d0c7ea7aa79a4fc738d))
+* **semantic-conventions:** enhance provider enum to include XAI and DeepSeek ([#1766](https://github.com/dirkbrnd/openinference/issues/1766)) ([f7e125e](https://github.com/dirkbrnd/openinference/commit/f7e125ea70c181b2a3f069bcca4bae3bb75a7d45))
+* **semcov:** add audio token counts to semantic convention  ([#1453](https://github.com/dirkbrnd/openinference/issues/1453)) ([ae5cd15](https://github.com/dirkbrnd/openinference/commit/ae5cd15d0a702f976908d84a6d87847859c4685a))
+* **semcov:** Cost semantic convention changes ([#1694](https://github.com/dirkbrnd/openinference/issues/1694)) ([5f904bf](https://github.com/dirkbrnd/openinference/commit/5f904bfad33e109843924aab1a609845a050d6f3))
+* **semcov:** token counts for cached prompts and reasoning steps in the completion ([#1393](https://github.com/dirkbrnd/openinference/issues/1393)) ([c4e2252](https://github.com/dirkbrnd/openinference/commit/c4e225244adc287b9b011972bc980550939e126a))
+* **semcov:** Update input and output cost ([#1774](https://github.com/dirkbrnd/openinference/issues/1774)) ([c2ee804](https://github.com/dirkbrnd/openinference/commit/c2ee804e63cb4b5ff393238854c37d99c6f5d675))
+
+
+### Bug Fixes
+
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/dirkbrnd/openinference/issues/1263)) ([5bfaa90](https://github.com/dirkbrnd/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.21](https://github.com/Arize-ai/openinference/compare/python-openinference-semantic-conventions-v0.1.20...python-openinference-semantic-conventions-v0.1.21) (2025-06-13)
 
 

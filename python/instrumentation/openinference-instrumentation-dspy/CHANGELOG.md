@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.1.29](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-dspy-v0.1.28...python-openinference-instrumentation-dspy-v0.1.29) (2025-08-27)
+
+
+### Features
+
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/dirkbrnd/openinference/issues/1278)) ([2106acf](https://github.com/dirkbrnd/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* Add model name and provider fields to DSPy for better model tracking/instrumentation [#1730](https://github.com/dirkbrnd/openinference/issues/1730) ([#1730](https://github.com/dirkbrnd/openinference/issues/1730)) ([3613f66](https://github.com/dirkbrnd/openinference/commit/3613f66331d3529f9131c2b9432696a79a4b7b21))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/dirkbrnd/openinference/issues/1290)) ([4b69fdc](https://github.com/dirkbrnd/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+* **dspy:** Add initial support for async tracing ([#1597](https://github.com/dirkbrnd/openinference/issues/1597)) ([205bdf0](https://github.com/dirkbrnd/openinference/commit/205bdf0e3a8da1c86802735112d9eff9f8dd0c5f))
+* **dspy:** Display Module.forward Output in JSON Format ([#1729](https://github.com/dirkbrnd/openinference/issues/1729)) ([591a2d9](https://github.com/dirkbrnd/openinference/commit/591a2d921d6fa09342059d71d43da46076ba8fad))
+* **dspy:** Instrument DSPy DummyLM ([#2067](https://github.com/dirkbrnd/openinference/issues/2067)) ([0b0349d](https://github.com/dirkbrnd/openinference/commit/0b0349d14f227ac6b51fdf461c4e614e8b80582a))
+* **dspy:** Instrument DSPy.Tool ([#1617](https://github.com/dirkbrnd/openinference/issues/1617)) ([e1ee8ff](https://github.com/dirkbrnd/openinference/commit/e1ee8ff86148a3fe0a8abf69bde675c8e0491cf5))
+
+
+### Bug Fixes
+
+* **dspy:** dspy 2.6.0 upgrade ([#1249](https://github.com/dirkbrnd/openinference/issues/1249)) ([c1ab1d8](https://github.com/dirkbrnd/openinference/commit/c1ab1d86783c607c2114c92245a17ed9754ff2f4))
+* **dspy:** mask api keys passed as arguments ([#1990](https://github.com/dirkbrnd/openinference/issues/1990)) ([98218a1](https://github.com/dirkbrnd/openinference/commit/98218a1bf710f860a93eb941194e2abcc2eec63f))
+* **dspy:** upstream max token default value change ([#1718](https://github.com/dirkbrnd/openinference/issues/1718)) ([1654bc1](https://github.com/dirkbrnd/openinference/commit/1654bc1e0734b0424f67d678ad1e5e4271a9942c))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* **instrumentation-dspy:** pin urllib3&lt;2.0 for pytest-recording compatibility ([#2007](https://github.com/dirkbrnd/openinference/issues/2007)) ([51f5040](https://github.com/dirkbrnd/openinference/commit/51f5040af8bef8f7407dde7451ea1f2fb6ca7950))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/dirkbrnd/openinference/issues/1263)) ([5bfaa90](https://github.com/dirkbrnd/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.28](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-dspy-v0.1.27...python-openinference-instrumentation-dspy-v0.1.28) (2025-08-13)
 
 

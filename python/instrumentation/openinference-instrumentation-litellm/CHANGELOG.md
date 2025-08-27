@@ -1,5 +1,39 @@
 # Changelog
 
+## [0.1.26](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-litellm-v0.1.25...python-openinference-instrumentation-litellm-v0.1.26) (2025-08-27)
+
+
+### Features
+
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/dirkbrnd/openinference/issues/1278)) ([2106acf](https://github.com/dirkbrnd/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/dirkbrnd/openinference/issues/1290)) ([4b69fdc](https://github.com/dirkbrnd/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+* **litellm:** add llm provider attributes ([#2094](https://github.com/dirkbrnd/openinference/issues/2094)) ([86e681a](https://github.com/dirkbrnd/openinference/commit/86e681aaf98116016848fc7d1b6c26a8c6607a25))
+* **liteLLM:** add support for acompletion streaming (resolves [#1224](https://github.com/dirkbrnd/openinference/issues/1224)) ([#1246](https://github.com/dirkbrnd/openinference/issues/1246)) ([c461b98](https://github.com/dirkbrnd/openinference/commit/c461b981da3ad541fcdf991cca01310cc3eab9a8))
+* **litellm:** track tool schemas from kwargs in litellm completion functions ([#1865](https://github.com/dirkbrnd/openinference/issues/1865)) ([4df17c3](https://github.com/dirkbrnd/openinference/commit/4df17c3562c1168db14af86fe5173b00e1ffadeb))
+* reasoning, cache, audio token counts litellm ([#1516](https://github.com/dirkbrnd/openinference/issues/1516)) ([89fd465](https://github.com/dirkbrnd/openinference/commit/89fd465ff432d001fbca9cd3e4cca57bcf476d8a))
+
+
+### Bug Fixes
+
+* Add support for litellm Message type ([#1308](https://github.com/dirkbrnd/openinference/issues/1308)) ([1f2407b](https://github.com/dirkbrnd/openinference/commit/1f2407b2047fdf952109520fb010cd6ef6aa96ec))
+* Add support for output messages for sync/async ([#1188](https://github.com/dirkbrnd/openinference/issues/1188)) ([0bb96b6](https://github.com/dirkbrnd/openinference/commit/0bb96b65ebd261445fb63ccc06da49f365dc1fa3))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* **litellm:** display tool_calls from model output ([#1722](https://github.com/dirkbrnd/openinference/issues/1722)) ([53c9fa5](https://github.com/dirkbrnd/openinference/commit/53c9fa5498135728364d122eefe2bf23ea30b47c))
+* **litellm:** Fixing Invocation Params, Output Messages ([#1838](https://github.com/dirkbrnd/openinference/issues/1838)) ([9f15912](https://github.com/dirkbrnd/openinference/commit/9f15912bc87e697e1021db0b63e9d2c8b3d1e377))
+* **litellm:** full JSON output ([#1735](https://github.com/dirkbrnd/openinference/issues/1735)) ([891fc26](https://github.com/dirkbrnd/openinference/commit/891fc265cd4a4c5600e7dd261e78ad4ad14e9cc6))
+* **litellm:** remove sensitive info from invocation params ([#1571](https://github.com/dirkbrnd/openinference/issues/1571)) ([fe4f784](https://github.com/dirkbrnd/openinference/commit/fe4f784a020db96f41a2a1f49b1fe8a497369933))
+* **liteLLM:** support sync stream ([#1307](https://github.com/dirkbrnd/openinference/issues/1307)) ([5c04fa0](https://github.com/dirkbrnd/openinference/commit/5c04fa0e10cd95db50e11b1be9afa0f2c3a39aa5))
+* Missing Span Status In LiteLLM ([#1754](https://github.com/dirkbrnd/openinference/issues/1754)) ([126f816](https://github.com/dirkbrnd/openinference/commit/126f816577bf4450e0c15c3ac8fa8f7f754c58e5))
+* Start span before API call ([#1562](https://github.com/dirkbrnd/openinference/issues/1562)) ([7d9306b](https://github.com/dirkbrnd/openinference/commit/7d9306b2f0654600b0a19c06319895470368fdde))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/dirkbrnd/openinference/issues/1263)) ([5bfaa90](https://github.com/dirkbrnd/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+* use safe_json_dumps for invocation parameters in litellm instrumentor ([#1269](https://github.com/dirkbrnd/openinference/issues/1269)) ([650dbb9](https://github.com/dirkbrnd/openinference/commit/650dbb9f83ce7e94329d159819033d8f86e21129))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.25](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-litellm-v0.1.24...python-openinference-instrumentation-litellm-v0.1.25) (2025-08-18)
 
 

@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.1.20](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-anthropic-v0.1.19...python-openinference-instrumentation-anthropic-v0.1.20) (2025-08-27)
+
+
+### Features
+
+* add entrypoint for use in opentelemetry-instrument ([#1278](https://github.com/dirkbrnd/openinference/issues/1278)) ([2106acf](https://github.com/dirkbrnd/openinference/commit/2106acfd6648804abe9b95e41a49df26a500435c))
+* **anthropic:** add stream wrapper and tests ([#1572](https://github.com/dirkbrnd/openinference/issues/1572)) ([918aa01](https://github.com/dirkbrnd/openinference/commit/918aa017441fd4c8cffdbcaab287913349a41a60))
+* **anthropic:** Added support for anthropic sdk input images rendering  ([#2091](https://github.com/dirkbrnd/openinference/issues/2091)) ([d2684b4](https://github.com/dirkbrnd/openinference/commit/d2684b4b20e3b0199051c553580a8b27b673727f))
+* define openinference_instrumentor entry points for all libraries ([#1290](https://github.com/dirkbrnd/openinference/issues/1290)) ([4b69fdc](https://github.com/dirkbrnd/openinference/commit/4b69fdc13210048009e51639b01e7c0c9550c9d1))
+* instrumentation-anthropic cache token counts ([#1465](https://github.com/dirkbrnd/openinference/issues/1465)) ([d6765e0](https://github.com/dirkbrnd/openinference/commit/d6765e0edd455fb879ccf0b58ea7d3dfaabeabf0))
+
+
+### Bug Fixes
+
+* include cache tokens in prompt tokens for anthropic ([#1429](https://github.com/dirkbrnd/openinference/issues/1429)) ([abd36c4](https://github.com/dirkbrnd/openinference/commit/abd36c45ea4ff966b58eccee42de252bc876d5ab))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* support python 3.13 and drop python 3.8 ([#1263](https://github.com/dirkbrnd/openinference/issues/1263)) ([5bfaa90](https://github.com/dirkbrnd/openinference/commit/5bfaa90d800a8f725b3ac7444d16972ed7821738))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.19](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-anthropic-v0.1.18...python-openinference-instrumentation-anthropic-v0.1.19) (2025-08-18)
 
 
