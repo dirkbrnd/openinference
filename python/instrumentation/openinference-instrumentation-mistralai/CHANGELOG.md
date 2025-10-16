@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.3.5](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-mistralai-v1.3.4...python-openinference-instrumentation-mistralai-v1.3.5) (2025-10-16)
+
+
+### Bug Fixes
+
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [1.3.4](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-mistralai-v1.3.3...python-openinference-instrumentation-mistralai-v1.3.4) (2025-10-10)
 
 

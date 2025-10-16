@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.15](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-crewai-v0.1.14...python-openinference-instrumentation-crewai-v0.1.15) (2025-10-16)
+
+
+### Features
+
+* **crewai:** capture graph.node.id and graph.node.parent_id semantics ([#1794](https://github.com/dirkbrnd/openinference/issues/1794)) ([4645932](https://github.com/dirkbrnd/openinference/commit/4645932b68f7ed5ab3ecd8818ddad9e1011c027e))
+* **crewai:** Enable Tracing Support For CrewAI Flows ([#2286](https://github.com/dirkbrnd/openinference/issues/2286)) ([4930cb1](https://github.com/dirkbrnd/openinference/commit/4930cb11f86845b10b02ed2cab03c63880419915))
+* **crewai:** enhance span naming to include crew, agent, and tool context ([#2202](https://github.com/dirkbrnd/openinference/issues/2202)) ([af44991](https://github.com/dirkbrnd/openinference/commit/af44991003f70fc21701b2f1ead8a19554cd37e2))
+
+
+### Bug Fixes
+
+* **crewai:** crewai default empty tasks ([#1682](https://github.com/dirkbrnd/openinference/issues/1682)) ([4a47bfc](https://github.com/dirkbrnd/openinference/commit/4a47bfc065b88b55bfcb7605abf66ef12a286ec9))
+* **crewai:** Not Getting Inputs For CrewAI Root Span ([#2193](https://github.com/dirkbrnd/openinference/issues/2193)) ([9cf3b8f](https://github.com/dirkbrnd/openinference/commit/9cf3b8fa0f432f6b6f783fc25a9d3d78f9164d4e))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
+
+### Documentation
+
+* fix license to be openinference ([#1353](https://github.com/dirkbrnd/openinference/issues/1353)) ([85d435b](https://github.com/dirkbrnd/openinference/commit/85d435be3af3de5424494cfbdd654454688b7377))
+
 ## [0.1.14](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-crewai-v0.1.13...python-openinference-instrumentation-crewai-v0.1.14) (2025-10-14)
 
 
