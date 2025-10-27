@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.25](https://github.com/dirkbrnd/openinference/compare/python-openinference-semantic-conventions-v0.1.24...python-openinference-semantic-conventions-v0.1.25) (2025-10-27)
+
+
+### Features
+
+* Add semantic conventions for agent and graph attributes ([#1748](https://github.com/dirkbrnd/openinference/issues/1748)) ([5f90a80](https://github.com/dirkbrnd/openinference/commit/5f90a8014c216a821c299d0c7ea7aa79a4fc738d))
+* **openai:** standardize completions to indexed attribute format ([#2242](https://github.com/dirkbrnd/openinference/issues/2242)) ([478d17a](https://github.com/dirkbrnd/openinference/commit/478d17a5433bd6119a8d501899a5eadbd2accccf))
+* **semantic-conventions:** enhance provider enum to include XAI and DeepSeek ([#1766](https://github.com/dirkbrnd/openinference/issues/1766)) ([f7e125e](https://github.com/dirkbrnd/openinference/commit/f7e125ea70c181b2a3f069bcca4bae3bb75a7d45))
+* **semcov:** add audio token counts to semantic convention  ([#1453](https://github.com/dirkbrnd/openinference/issues/1453)) ([ae5cd15](https://github.com/dirkbrnd/openinference/commit/ae5cd15d0a702f976908d84a6d87847859c4685a))
+* **semcov:** Cost semantic convention changes ([#1694](https://github.com/dirkbrnd/openinference/issues/1694)) ([5f904bf](https://github.com/dirkbrnd/openinference/commit/5f904bfad33e109843924aab1a609845a050d6f3))
+* **semcov:** token counts for cached prompts and reasoning steps in the completion ([#1393](https://github.com/dirkbrnd/openinference/issues/1393)) ([c4e2252](https://github.com/dirkbrnd/openinference/commit/c4e225244adc287b9b011972bc980550939e126a))
+* **semcov:** Update input and output cost ([#1774](https://github.com/dirkbrnd/openinference/issues/1774)) ([c2ee804](https://github.com/dirkbrnd/openinference/commit/c2ee804e63cb4b5ff393238854c37d99c6f5d675))
+
+
+### Bug Fixes
+
+* **semconv:** refactor semconv ([#2281](https://github.com/dirkbrnd/openinference/issues/2281)) ([090864b](https://github.com/dirkbrnd/openinference/commit/090864b0549588830c38aaa1fcd9c9700f7caf14))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.24](https://github.com/Arize-ai/openinference/compare/python-openinference-semantic-conventions-v0.1.23...python-openinference-semantic-conventions-v0.1.24) (2025-10-10)
 
 
