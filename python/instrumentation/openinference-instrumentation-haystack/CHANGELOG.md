@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.1.27](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-haystack-v0.1.26...python-openinference-instrumentation-haystack-v0.1.27) (2025-10-27)
+
+
+### Features
+
+* **haysack-ai:** haystack async pipeline support ([#2300](https://github.com/dirkbrnd/openinference/issues/2300)) ([abd8837](https://github.com/dirkbrnd/openinference/commit/abd883711e519149142d214576e0ecf104e0a522))
+
+
+### Bug Fixes
+
+* CI Failures For Haystack ([#1736](https://github.com/dirkbrnd/openinference/issues/1736)) ([673dc40](https://github.com/dirkbrnd/openinference/commit/673dc4071845aa3282f9516de6a57d4c92790240))
+* **haystack:** fixing ci issues for haystack-ai ([#1623](https://github.com/dirkbrnd/openinference/issues/1623)) ([daffa8e](https://github.com/dirkbrnd/openinference/commit/daffa8e3fa9825daa76268a91a208b8c77dd1cb1))
+* **haystack:** support base64-encoded embeddings and list[Document] hints ([#2245](https://github.com/dirkbrnd/openinference/issues/2245)) ([75e5a1f](https://github.com/dirkbrnd/openinference/commit/75e5a1fbf245109fec99c6fde90dffe499380797))
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* ruff formating fix & bump ruff version in dev requirements ([#1600](https://github.com/dirkbrnd/openinference/issues/1600)) ([076bb79](https://github.com/dirkbrnd/openinference/commit/076bb7966d44fccdb2ab94e6f379ef4ae22c39b1))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.26](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-haystack-v0.1.25...python-openinference-instrumentation-haystack-v0.1.26) (2025-10-10)
 
 
