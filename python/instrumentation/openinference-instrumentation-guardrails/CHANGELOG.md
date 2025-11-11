@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.11](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-guardrails-v0.1.10...python-openinference-instrumentation-guardrails-v0.1.11) (2025-11-11)
+
+
+### Bug Fixes
+
+* increased minimum supported version of openinference-instrumentation to 0.1.27 ([#1507](https://github.com/dirkbrnd/openinference/issues/1507)) ([a55edfa](https://github.com/dirkbrnd/openinference/commit/a55edfa8900c1f36a73385c7d03f91cffadd85c4))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.10](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-guardrails-v0.1.9...python-openinference-instrumentation-guardrails-v0.1.10) (2025-10-10)
 
 
