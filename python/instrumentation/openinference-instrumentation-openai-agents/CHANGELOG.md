@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.0.0](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-openai-agents-v1.3.1...python-openinference-instrumentation-openai-agents-v2.0.0) (2025-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* set openinference processor as the exclusive processor by default ([#1792](https://github.com/dirkbrnd/openinference/issues/1792))
+
+### Features
+
+* openai + openai agent support custom tool calls ([#2080](https://github.com/dirkbrnd/openinference/issues/2080)) ([ee8693c](https://github.com/dirkbrnd/openinference/commit/ee8693c3325380440e4af4e0df708851c5598c30))
+* **openai-agents:** add support for exclusive processor configuration ([#1586](https://github.com/dirkbrnd/openinference/issues/1586)) ([47c2ac3](https://github.com/dirkbrnd/openinference/commit/47c2ac350a113bf7df45fbcebdfc19504e73723c))
+* **openai-agents:** capture graph.node.id and graph.node.parent_id semantics  ([#1854](https://github.com/dirkbrnd/openinference/issues/1854)) ([0864c13](https://github.com/dirkbrnd/openinference/commit/0864c13fdfa9e289468ac0a79a2860a155be46de))
+* **openai:** implement image redaction for input values when hide_input_images=True ([#2146](https://github.com/dirkbrnd/openinference/issues/2146)) ([fac0604](https://github.com/dirkbrnd/openinference/commit/fac0604caeedf0b0332151dfde69f0b51b554652))
+* set openinference processor as the exclusive processor by default ([#1792](https://github.com/dirkbrnd/openinference/issues/1792)) ([d56abb1](https://github.com/dirkbrnd/openinference/commit/d56abb1935aa4a96925214c39cef045381ab9b15))
+
+
+### Bug Fixes
+
+* CI Failures For OpenAI & OpenAI Agents ([#1725](https://github.com/dirkbrnd/openinference/issues/1725)) ([69576ca](https://github.com/dirkbrnd/openinference/commit/69576cac4628f7d3b1b36558ad6cf8e4ae65b2d8))
+* CI Failures For OpenAI & OpenAI Agents Follow Up ([#1733](https://github.com/dirkbrnd/openinference/issues/1733)) ([ec1e855](https://github.com/dirkbrnd/openinference/commit/ec1e8552b40c8a04ee2b3b92073e41e405b95293))
+* CI issues for openai agents ([#2367](https://github.com/dirkbrnd/openinference/issues/2367)) ([a18078b](https://github.com/dirkbrnd/openinference/commit/a18078bb150134b5988c454b9143e1ef93fc4aa6))
+* fix IndexError for empty function output ([#1878](https://github.com/dirkbrnd/openinference/issues/1878)) ([e6453e7](https://github.com/dirkbrnd/openinference/commit/e6453e72784aac519e05c98b541a551500b814a4))
+* **openai_agents:** Set status `on_span_end`. ([#1556](https://github.com/dirkbrnd/openinference/issues/1556)) ([2b53efa](https://github.com/dirkbrnd/openinference/commit/2b53efa491d81ab5852387f5a4d2e87972262616))
+* openai-agents CI add eval_type_backport dependency for Python &lt;3.10 compatibility ([#2004](https://github.com/dirkbrnd/openinference/issues/2004)) ([f38ed8e](https://github.com/dirkbrnd/openinference/commit/f38ed8efe6734297a3e77c0b4d4ddde32bc8ba11))
+* ruff formating fix & bump ruff version in dev requirements ([#1600](https://github.com/dirkbrnd/openinference/issues/1600)) ([076bb79](https://github.com/dirkbrnd/openinference/commit/076bb7966d44fccdb2ab94e6f379ef4ae22c39b1))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [1.3.1](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-openai-agents-v1.3.0...python-openinference-instrumentation-openai-agents-v1.3.1) (2025-11-18)
 
 

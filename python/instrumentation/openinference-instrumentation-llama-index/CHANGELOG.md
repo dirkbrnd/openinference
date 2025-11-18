@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.4.0](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-llama-index-v4.3.9...python-openinference-instrumentation-llama-index-v4.4.0) (2025-11-18)
+
+
+### Features
+
+* **llama-index:** Add LLM provider detection with lazy imports - res… ([#1710](https://github.com/dirkbrnd/openinference/issues/1710)) ([f20ac82](https://github.com/dirkbrnd/openinference/commit/f20ac827b1b38fe298e69753f6718b52e0807aa0))
+
+
+### Bug Fixes
+
+* Bump llama index version for tests + fix tests ([#1992](https://github.com/dirkbrnd/openinference/issues/1992)) ([a70bcd5](https://github.com/dirkbrnd/openinference/commit/a70bcd5090568dcf48b56cc2feb081d33febf3de))
+* capture tools from chat kwargs ([#1509](https://github.com/dirkbrnd/openinference/issues/1509)) ([2083836](https://github.com/dirkbrnd/openinference/commit/2083836872dd9b3f4c40bcf66a2c3054f30aa59a))
+* Llama Index CI issues ([#2455](https://github.com/dirkbrnd/openinference/issues/2455)) ([d8957a2](https://github.com/dirkbrnd/openinference/commit/d8957a2d65c5a23b58e6f3decac76f1bc9e4d624))
+* llama-index support vertex-ai token counts ([#1986](https://github.com/dirkbrnd/openinference/issues/1986)) ([f75b573](https://github.com/dirkbrnd/openinference/commit/f75b573fe09851a2708de8aa26fef388138256c3))
+* **llama-index:** Fixing output messages attributes types ([#2291](https://github.com/dirkbrnd/openinference/issues/2291)) ([45d9332](https://github.com/dirkbrnd/openinference/commit/45d9332fb9571361ea397e82a6b3a1582c20f804))
+* **llama-index:** handle BaseAgent import changes in v0.13.0+ ([#2023](https://github.com/dirkbrnd/openinference/issues/2023)) ([62ce073](https://github.com/dirkbrnd/openinference/commit/62ce073c98887851dd02dfd785b791e7e7ca9cb5))
+* **llama-index:** tools ui fix ([#1802](https://github.com/dirkbrnd/openinference/issues/1802)) ([c81bda4](https://github.com/dirkbrnd/openinference/commit/c81bda4e490677913e72d48509112f544970d57c))
+* non-ascii characters in input.value ([#2199](https://github.com/dirkbrnd/openinference/issues/2199)) ([8bfdd0d](https://github.com/dirkbrnd/openinference/commit/8bfdd0d65aae74649a1087ec6796193485e0a73b))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update dependancies for security ([#2320](https://github.com/dirkbrnd/openinference/issues/2320)) ([c7eab4f](https://github.com/dirkbrnd/openinference/commit/c7eab4fbcac5b7d7407d9ed9c28706d4919421fb))
+
 ## [4.3.9](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-llama-index-v4.3.8...python-openinference-instrumentation-llama-index-v4.3.9) (2025-11-18)
 
 

@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.7](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-google-adk-v0.1.6...python-openinference-instrumentation-google-adk-v0.1.7) (2025-11-18)
+
+
+### Features
+
+* add instrumentation for google-adk ([#1759](https://github.com/dirkbrnd/openinference/issues/1759)) ([aeb1769](https://github.com/dirkbrnd/openinference/commit/aeb17692d30cd8112bcad0990f1ec56491a59962))
+
+
+### Bug Fixes
+
+* **google-adk:** fix test compatibility with v1.13.0 ([#2176](https://github.com/dirkbrnd/openinference/issues/2176)) ([dbe0668](https://github.com/dirkbrnd/openinference/commit/dbe066844397be079e90900ab3eff9a920dbf436))
+* **google-adk:** remove dependency on private telemetry API ([#2244](https://github.com/dirkbrnd/openinference/issues/2244)) ([e07939d](https://github.com/dirkbrnd/openinference/commit/e07939d2ae530212e81004ef466d01e34f798b2d))
+* include reasoning and audio token count for genai and adk instrumentors ([#1812](https://github.com/dirkbrnd/openinference/issues/1812)) ([921ff07](https://github.com/dirkbrnd/openinference/commit/921ff073e28ac2755b651dcdfac9ab3dbd673e70))
+* pydantic model serialization for input value and image bytes for google-adk ([#2031](https://github.com/dirkbrnd/openinference/issues/2031)) ([46ef152](https://github.com/dirkbrnd/openinference/commit/46ef1522f73cf98f8c2b318b7afc7444160033b3))
+* serialization of response schema in invocation parameters for google-adk ([#2033](https://github.com/dirkbrnd/openinference/issues/2033)) ([586689f](https://github.com/dirkbrnd/openinference/commit/586689f4ec6a37a6f3961740ebff4734f92ec3e5))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.6](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-google-adk-v0.1.5...python-openinference-instrumentation-google-adk-v0.1.6) (2025-10-10)
 
 

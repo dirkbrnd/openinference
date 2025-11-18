@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.1.41](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-openai-v0.1.40...python-openinference-instrumentation-openai-v0.1.41) (2025-11-18)
+
+
+### Features
+
+* instrument OpenAI responses API ([#1521](https://github.com/dirkbrnd/openinference/issues/1521)) ([64cde2b](https://github.com/dirkbrnd/openinference/commit/64cde2b7230bfae3e7f7fb1141708a86ceea6b1a))
+* **litellm:** align embedding instrumentation with pending spec ([#2238](https://github.com/dirkbrnd/openinference/issues/2238)) ([d03047d](https://github.com/dirkbrnd/openinference/commit/d03047d880fc5538ba1b2fcbb37812a665905d33))
+* openai + openai agent support custom tool calls ([#2080](https://github.com/dirkbrnd/openinference/issues/2080)) ([ee8693c](https://github.com/dirkbrnd/openinference/commit/ee8693c3325380440e4af4e0df708851c5598c30))
+* Openai audio + reasoning token counts ([#1547](https://github.com/dirkbrnd/openinference/issues/1547)) ([cbae31b](https://github.com/dirkbrnd/openinference/commit/cbae31b2838234a3fe388a1501caadd281ac545e))
+* **openai:** align embedding instrumentation with pending spec ([#2210](https://github.com/dirkbrnd/openinference/issues/2210)) ([df5b9d5](https://github.com/dirkbrnd/openinference/commit/df5b9d5dc080eddc4c91b6cb413eadb59f6c9982))
+* **openai:** implement image redaction for input values when hide_input_images=True ([#2146](https://github.com/dirkbrnd/openinference/issues/2146)) ([fac0604](https://github.com/dirkbrnd/openinference/commit/fac0604caeedf0b0332151dfde69f0b51b554652))
+* **openai:** standardize completions to indexed attribute format ([#2242](https://github.com/dirkbrnd/openinference/issues/2242)) ([478d17a](https://github.com/dirkbrnd/openinference/commit/478d17a5433bd6119a8d501899a5eadbd2accccf))
+
+
+### Bug Fixes
+
+* CI Failures For OpenAI & OpenAI Agents ([#1725](https://github.com/dirkbrnd/openinference/issues/1725)) ([69576ca](https://github.com/dirkbrnd/openinference/commit/69576cac4628f7d3b1b36558ad6cf8e4ae65b2d8))
+* CI Failures For OpenAI & OpenAI Agents Follow Up ([#1733](https://github.com/dirkbrnd/openinference/issues/1733)) ([ec1e855](https://github.com/dirkbrnd/openinference/commit/ec1e8552b40c8a04ee2b3b92073e41e405b95293))
+* **openai:** add tool_id accumulator for resposne ([#2241](https://github.com/dirkbrnd/openinference/issues/2241)) ([cb6e1a6](https://github.com/dirkbrnd/openinference/commit/cb6e1a6f68a6262b0eb50d045eef002b086288c4))
+* **openai:** handle complex output types in responses API for openai 2 compat ([#2253](https://github.com/dirkbrnd/openinference/issues/2253)) ([a209e6a](https://github.com/dirkbrnd/openinference/commit/a209e6a1a33b36a497de5cc44d7059a723a75020))
+* **openai:** handle string format for image_url in chat completions ([#2213](https://github.com/dirkbrnd/openinference/issues/2213)) ([4d09a7e](https://github.com/dirkbrnd/openinference/commit/4d09a7ec101a849ca74e36820caaff519ebe610e))
+* **openai:** update lower bound on openinference-semantic-conventions ([#2279](https://github.com/dirkbrnd/openinference/issues/2279)) ([45cfad1](https://github.com/dirkbrnd/openinference/commit/45cfad1d27d247b1a58d08f10db6ed5896863c69))
+* ruff formating fix & bump ruff version in dev requirements ([#1600](https://github.com/dirkbrnd/openinference/issues/1600)) ([076bb79](https://github.com/dirkbrnd/openinference/commit/076bb7966d44fccdb2ab94e6f379ef4ae22c39b1))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.40](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-openai-v0.1.39...python-openinference-instrumentation-openai-v0.1.40) (2025-11-05)
 
 

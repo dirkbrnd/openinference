@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.11](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-autogen-v0.1.10...python-openinference-instrumentation-autogen-v0.1.11) (2025-11-18)
+
+
+### Bug Fixes
+
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.10](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-autogen-v0.1.9...python-openinference-instrumentation-autogen-v0.1.10) (2025-10-10)
 
 

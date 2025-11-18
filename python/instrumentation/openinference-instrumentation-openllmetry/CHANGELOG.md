@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.4](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-openllmetry-v0.1.3...python-openinference-instrumentation-openllmetry-v0.1.4) (2025-11-18)
+
+
+### Features
+
+* openinference-instrumentation-openllmetry (openllmetry converter) ([#1789](https://github.com/dirkbrnd/openinference/issues/1789)) ([55fb98e](https://github.com/dirkbrnd/openinference/commit/55fb98e8f23dd1d485a760e04496e0629bce6de0))
+* Openlit span processor ([#2021](https://github.com/dirkbrnd/openinference/issues/2021)) ([99c4c99](https://github.com/dirkbrnd/openinference/commit/99c4c994b42486192bf07699ea6b75c3bd29efa1))
+
+
+### Bug Fixes
+
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.3](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-openllmetry-v0.1.2...python-openinference-instrumentation-openllmetry-v0.1.3) (2025-10-10)
 
 

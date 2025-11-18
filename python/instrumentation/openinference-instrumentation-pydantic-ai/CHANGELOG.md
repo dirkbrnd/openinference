@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.10](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-pydantic-ai-v0.1.9...python-openinference-instrumentation-pydantic-ai-v0.1.10) (2025-11-18)
+
+
+### Features
+
+* pydanticai instrumentation ([#1639](https://github.com/dirkbrnd/openinference/issues/1639)) ([d8c5b9c](https://github.com/dirkbrnd/openinference/commit/d8c5b9cdf793dcce247b2ea852c28eba3a1989bc))
+* update pydantic-ai to v2 tracing format ([#2186](https://github.com/dirkbrnd/openinference/issues/2186)) ([5eecce5](https://github.com/dirkbrnd/openinference/commit/5eecce5c648d710d3ad9397e23773096e5903352))
+
+
+### Bug Fixes
+
+* pydantic-ai add tool call result ([#2305](https://github.com/dirkbrnd/openinference/issues/2305)) ([ede428c](https://github.com/dirkbrnd/openinference/commit/ede428cc5653b1c8d89c6ba68753a1a57fb2bacd))
+* pydantic-ai fix span filtering ([#2016](https://github.com/dirkbrnd/openinference/issues/2016)) ([c139f36](https://github.com/dirkbrnd/openinference/commit/c139f3677233fb7c76b0b2bff5b4a2dafe1921dc))
+* pydantic-ai properly instrument tools and instructions ([#2250](https://github.com/dirkbrnd/openinference/issues/2250)) ([6458835](https://github.com/dirkbrnd/openinference/commit/64588357d31137dafcd855c9c610ce241dcd0519))
+* pydantic-ai use final user message as input value ([#2237](https://github.com/dirkbrnd/openinference/issues/2237)) ([208232d](https://github.com/dirkbrnd/openinference/commit/208232dfd6d47e8123beea41c47c8fc556012325))
+* rename pydantic ai test dir ([#1706](https://github.com/dirkbrnd/openinference/issues/1706)) ([d45b00c](https://github.com/dirkbrnd/openinference/commit/d45b00cce1d5960e090dac3801a914523fb0355c))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
+
+### Documentation
+
+* fix pip install in readme ([#1705](https://github.com/dirkbrnd/openinference/issues/1705)) ([4fbad21](https://github.com/dirkbrnd/openinference/commit/4fbad21f700325af4cd5d314881ec004a859bdf8))
+
 ## [0.1.9](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-pydantic-ai-v0.1.8...python-openinference-instrumentation-pydantic-ai-v0.1.9) (2025-10-15)
 
 
