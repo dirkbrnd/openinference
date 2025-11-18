@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.1.13](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-instructor-v0.1.12...python-openinference-instrumentation-instructor-v0.1.13) (2025-11-18)
+
+
+### Bug Fixes
+
+* instructor output bug fix ([#1549](https://github.com/dirkbrnd/openinference/issues/1549)) ([905325f](https://github.com/dirkbrnd/openinference/commit/905325f324dd1d8079cebbb169b0b7fc933a8e0c))
+* **instructor:** Added compatibility with the latest instructor versi… ([#2287](https://github.com/dirkbrnd/openinference/issues/2287)) ([5c5a02b](https://github.com/dirkbrnd/openinference/commit/5c5a02b84ee07106c3f50c193fa803460baa3c32))
+* **instructor:** JSON Serialization Error for max_retries in Span Attributes ([#2212](https://github.com/dirkbrnd/openinference/issues/2212)) ([c6d1d40](https://github.com/dirkbrnd/openinference/commit/c6d1d40e98a123bb1029d0b7e4120de45f81d100))
+* **instructor:** make UserInfo fields optional for streaming partial responses ([#2295](https://github.com/dirkbrnd/openinference/issues/2295)) ([5bb52cf](https://github.com/dirkbrnd/openinference/commit/5bb52cfe25d0ec9693d562110c0af1097b7518b5))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.12](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-instructor-v0.1.11...python-openinference-instrumentation-instructor-v0.1.12) (2025-10-23)
 
 

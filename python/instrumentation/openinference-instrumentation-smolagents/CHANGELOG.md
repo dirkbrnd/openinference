@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.1.21](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-smolagents-v0.1.20...python-openinference-instrumentation-smolagents-v0.1.21) (2025-11-18)
+
+
+### Features
+
+* **smolagents:** Improve Display Of Handled Errors ([#1845](https://github.com/dirkbrnd/openinference/issues/1845)) ([fb7eb1f](https://github.com/dirkbrnd/openinference/commit/fb7eb1fa36adb7bb5ff001dce196c32ceb244a18))
+
+
+### Bug Fixes
+
+* **smolagents:** Getting Multiple Traces While Streaming Code Agent ([#1872](https://github.com/dirkbrnd/openinference/issues/1872)) ([420ea79](https://github.com/dirkbrnd/openinference/commit/420ea79a5fd2ce572cb7bdcb38b6585107cce465))
+* **smolagents:** include reasoning content ([#1697](https://github.com/dirkbrnd/openinference/issues/1697)) ([0c8ea99](https://github.com/dirkbrnd/openinference/commit/0c8ea99312874f605e1ab751e38dd13c8b0d4ea0))
+* **smolagents:** instrument both __call__ and generate methods for complete model tracing ([#1744](https://github.com/dirkbrnd/openinference/issues/1744)) ([a963b96](https://github.com/dirkbrnd/openinference/commit/a963b9619776abe79fb6719eeb9eda01850aeff5))
+* **smolagents:** Not Getting Step Spans From Latest Smolagents ([#2171](https://github.com/dirkbrnd/openinference/issues/2171)) ([14f0a19](https://github.com/dirkbrnd/openinference/commit/14f0a1994a43476f77b1e906912d4a572d194700))
+* **smolagents:** prevent duplicate llm spans ([#2118](https://github.com/dirkbrnd/openinference/issues/2118)) ([f1a2946](https://github.com/dirkbrnd/openinference/commit/f1a29460344d37e7e431d2bd76bc6f724bcbb931))
+* **smolagents:** tool spans fix ([#2425](https://github.com/dirkbrnd/openinference/issues/2425)) ([248d025](https://github.com/dirkbrnd/openinference/commit/248d025c71cfc6b378b6128635c8e37a39afef20))
+* **smolagents:** use new token_usage structure ([#2087](https://github.com/dirkbrnd/openinference/issues/2087)) ([c691712](https://github.com/dirkbrnd/openinference/commit/c6917124a236eb6deff1e1faf214075662ebfc58))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.20](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-smolagents-v0.1.19...python-openinference-instrumentation-smolagents-v0.1.20) (2025-11-18)
 
 

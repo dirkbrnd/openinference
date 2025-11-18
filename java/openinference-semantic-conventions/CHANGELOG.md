@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.1.10](https://github.com/dirkbrnd/openinference/compare/java-openinference-semantic-conventions-v0.1.9...java-openinference-semantic-conventions-v0.1.10) (2025-11-18)
+
+
+### Features
+
+* Java release only, please ([#1881](https://github.com/dirkbrnd/openinference/issues/1881)) ([0c75997](https://github.com/dirkbrnd/openinference/commit/0c759977688c05a813a5121255f9da063aa9b4b0))
+* **java:** add tool calling instrumentation, prepare dependabot PR ([#1901](https://github.com/dirkbrnd/openinference/issues/1901)) ([33d3ded](https://github.com/dirkbrnd/openinference/commit/33d3ded20fbd3097b4ee567c77d540526c480555))
+* **langchain4j:** Java Openinference client, langchain4j example ([#1817](https://github.com/dirkbrnd/openinference/issues/1817)) ([9ffb378](https://github.com/dirkbrnd/openinference/commit/9ffb378c70396cb991136ebbeb8368eee493725d))
+* new experimental release ([#2050](https://github.com/dirkbrnd/openinference/issues/2050)) ([3afeed2](https://github.com/dirkbrnd/openinference/commit/3afeed2d72d52a0d96217c9c1c6e1f7d3e983c73))
+* Spring AI instrumentation, Java 17 update ([#2036](https://github.com/dirkbrnd/openinference/issues/2036)) ([b260225](https://github.com/dirkbrnd/openinference/commit/b2602255b7954296a70fa02b2c98d67c514d9b9f))
+* Upgrade workflow java 17 ([#2044](https://github.com/dirkbrnd/openinference/issues/2044)) ([2084e8e](https://github.com/dirkbrnd/openinference/commit/2084e8e48761fbb9e575bf4fbfc0f75ba3998d2e))
+* use generic updater markers ([#1887](https://github.com/dirkbrnd/openinference/issues/1887)) ([ffda77a](https://github.com/dirkbrnd/openinference/commit/ffda77a10970d8616cbf57a5565aeb5fc9aede9a))
+
+
+### Bug Fixes
+
+* bump java, add release-please gradle property ([#1875](https://github.com/dirkbrnd/openinference/issues/1875)) ([8bd49ee](https://github.com/dirkbrnd/openinference/commit/8bd49ee132c59974c1742fac309c5a91601dc45a))
+* exclude java from python release path, read version from gradle.… ([#1877](https://github.com/dirkbrnd/openinference/issues/1877)) ([f2a14bc](https://github.com/dirkbrnd/openinference/commit/f2a14bc212491a01417eb08975be6ee0f9f99355))
+* snapshot publish ([#1883](https://github.com/dirkbrnd/openinference/issues/1883)) ([1c2532e](https://github.com/dirkbrnd/openinference/commit/1c2532ecc2abb82c8bbdd87091a565dafd705756))
+* SpringAI linking with correct dependencies ([#2098](https://github.com/dirkbrnd/openinference/issues/2098)) ([8d944f8](https://github.com/dirkbrnd/openinference/commit/8d944f8ab3b4b54ec449a256465128a7083d8e9e))
+* typo on release ([#1884](https://github.com/dirkbrnd/openinference/issues/1884)) ([5c2718e](https://github.com/dirkbrnd/openinference/commit/5c2718e4dabff57be14f897ad8da23b03d208eab))
+
 ## [0.1.9](https://github.com/Arize-ai/openinference/compare/java-openinference-semantic-conventions-v0.1.8...java-openinference-semantic-conventions-v0.1.9) (2025-08-18)
 
 

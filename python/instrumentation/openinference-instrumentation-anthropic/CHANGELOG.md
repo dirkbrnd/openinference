@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.1.21](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-anthropic-v0.1.20...python-openinference-instrumentation-anthropic-v0.1.21) (2025-11-18)
+
+
+### Features
+
+* **anthropic:** add stream wrapper and tests ([#1572](https://github.com/dirkbrnd/openinference/issues/1572)) ([918aa01](https://github.com/dirkbrnd/openinference/commit/918aa017441fd4c8cffdbcaab287913349a41a60))
+* **anthropic:** Added support for anthropic sdk input images rendering  ([#2091](https://github.com/dirkbrnd/openinference/issues/2091)) ([d2684b4](https://github.com/dirkbrnd/openinference/commit/d2684b4b20e3b0199051c553580a8b27b673727f))
+
+
+### Bug Fixes
+
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.20](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-anthropic-v0.1.19...python-openinference-instrumentation-anthropic-v0.1.20) (2025-10-10)
 
 

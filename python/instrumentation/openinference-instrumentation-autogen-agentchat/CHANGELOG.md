@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.7](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-autogen-agentchat-v0.1.6...python-openinference-instrumentation-autogen-agentchat-v0.1.7) (2025-11-18)
+
+
+### Features
+
+* **autogen-agentchat:** add tool call semantic convention attributes ([#2104](https://github.com/dirkbrnd/openinference/issues/2104)) ([fe0780d](https://github.com/dirkbrnd/openinference/commit/fe0780d243e9ecf89e6548e5793c7265dede1b86))
+* **autogen-agentchat:** auto instrumentation ([#1611](https://github.com/dirkbrnd/openinference/issues/1611)) ([3c5857c](https://github.com/dirkbrnd/openinference/commit/3c5857c2864c3b367888683d1fd470ec631c389f))
+* **autogen-agentchat:** capture graph.node.id and graph.node.parent_id semantics ([#1867](https://github.com/dirkbrnd/openinference/issues/1867)) ([9f8ca03](https://github.com/dirkbrnd/openinference/commit/9f8ca0373856e94305e531ef1e325525b5958ff9))
+* **autogen-agentchat:** instrumenting AssistantAgent, BaseOpenAIChatCompletionClient, and BaseGroupChat ([#1790](https://github.com/dirkbrnd/openinference/issues/1790)) ([3a53ede](https://github.com/dirkbrnd/openinference/commit/3a53ede8716e1a2d862ec653740b93881ebb1106))
+
+
+### Bug Fixes
+
+* **autogen-agentchat:** filter out invalid kwargs before binding calls and record new vcrs for tests for autogen version 0.6.x ([#1871](https://github.com/dirkbrnd/openinference/issues/1871)) ([9c4ada0](https://github.com/dirkbrnd/openinference/commit/9c4ada0847be85fff074ef493ad2f138f80369d2))
+* autogent-agentchat modelname fix ([#2436](https://github.com/dirkbrnd/openinference/issues/2436)) ([1547025](https://github.com/dirkbrnd/openinference/commit/1547025474eef190d1ae85b49faa8f9c3329db08))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+
 ## [0.1.6](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-autogen-agentchat-v0.1.5...python-openinference-instrumentation-autogen-agentchat-v0.1.6) (2025-11-18)
 
 

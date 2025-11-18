@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.29](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-litellm-v0.1.28...python-openinference-instrumentation-litellm-v0.1.29) (2025-11-18)
+
+
+### Features
+
+* **litellm:** add llm provider attributes ([#2094](https://github.com/dirkbrnd/openinference/issues/2094)) ([86e681a](https://github.com/dirkbrnd/openinference/commit/86e681aaf98116016848fc7d1b6c26a8c6607a25))
+* **litellm:** Added Support for responses API in litellm instrumentor ([#2209](https://github.com/dirkbrnd/openinference/issues/2209)) ([1abc662](https://github.com/dirkbrnd/openinference/commit/1abc6624fc82381a2017f7871f1041391cea0eab))
+* **litellm:** align embedding instrumentation with pending spec ([#2238](https://github.com/dirkbrnd/openinference/issues/2238)) ([d03047d](https://github.com/dirkbrnd/openinference/commit/d03047d880fc5538ba1b2fcbb37812a665905d33))
+* **litellm:** track tool schemas from kwargs in litellm completion functions ([#1865](https://github.com/dirkbrnd/openinference/issues/1865)) ([4df17c3](https://github.com/dirkbrnd/openinference/commit/4df17c3562c1168db14af86fe5173b00e1ffadeb))
+* reasoning, cache, audio token counts litellm ([#1516](https://github.com/dirkbrnd/openinference/issues/1516)) ([89fd465](https://github.com/dirkbrnd/openinference/commit/89fd465ff432d001fbca9cd3e4cca57bcf476d8a))
+
+
+### Bug Fixes
+
+* **litellm:** display tool_calls from model output ([#1722](https://github.com/dirkbrnd/openinference/issues/1722)) ([53c9fa5](https://github.com/dirkbrnd/openinference/commit/53c9fa5498135728364d122eefe2bf23ea30b47c))
+* **litellm:** Fixing Invocation Params, Output Messages ([#1838](https://github.com/dirkbrnd/openinference/issues/1838)) ([9f15912](https://github.com/dirkbrnd/openinference/commit/9f15912bc87e697e1021db0b63e9d2c8b3d1e377))
+* **litellm:** full JSON output ([#1735](https://github.com/dirkbrnd/openinference/issues/1735)) ([891fc26](https://github.com/dirkbrnd/openinference/commit/891fc265cd4a4c5600e7dd261e78ad4ad14e9cc6))
+* **litellm:** remove sensitive info from invocation params ([#1571](https://github.com/dirkbrnd/openinference/issues/1571)) ([fe4f784](https://github.com/dirkbrnd/openinference/commit/fe4f784a020db96f41a2a1f49b1fe8a497369933))
+* Missing Span Status In LiteLLM ([#1754](https://github.com/dirkbrnd/openinference/issues/1754)) ([126f816](https://github.com/dirkbrnd/openinference/commit/126f816577bf4450e0c15c3ac8fa8f7f754c58e5))
+* Start span before API call ([#1562](https://github.com/dirkbrnd/openinference/issues/1562)) ([7d9306b](https://github.com/dirkbrnd/openinference/commit/7d9306b2f0654600b0a19c06319895470368fdde))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.28](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-litellm-v0.1.27...python-openinference-instrumentation-litellm-v0.1.28) (2025-11-05)
 
 

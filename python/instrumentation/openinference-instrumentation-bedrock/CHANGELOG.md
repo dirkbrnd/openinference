@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.1.32](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-bedrock-v0.1.31...python-openinference-instrumentation-bedrock-v0.1.32) (2025-11-18)
+
+
+### Features
+
+* Add bedrock-agent instrumentation ([#1363](https://github.com/dirkbrnd/openinference/issues/1363)) ([e174240](https://github.com/dirkbrnd/openinference/commit/e174240a09db59c74b816efb3bc3176cc581d31e))
+* **bedrock-agents:** Added Support for bedrock invoke inline agent ([#2256](https://github.com/dirkbrnd/openinference/issues/2256)) ([2d4e27e](https://github.com/dirkbrnd/openinference/commit/2d4e27eb29496154ef26754de36eb10a4312f4e5))
+* **bedrock:** Add instrumentation for guardrailTrace ([#2058](https://github.com/dirkbrnd/openinference/issues/2058)) ([8ea1eef](https://github.com/dirkbrnd/openinference/commit/8ea1eef5db0a334c5ca66c77f7217246156d7ef0))
+* **bedrock:** added support for retrieve, retrieve and generate ([#1786](https://github.com/dirkbrnd/openinference/issues/1786)) ([2652fa7](https://github.com/dirkbrnd/openinference/commit/2652fa7372a02980b55425591f16b61626db297c))
+* **bedrock:** Bedrock converse streaming support added ([#2172](https://github.com/dirkbrnd/openinference/issues/2172)) ([5b9ba8f](https://github.com/dirkbrnd/openinference/commit/5b9ba8f8739170cf1aa4e6ae359449382bcd9416))
+* **bedrock:** Multi Agent Support, capturing time metrics from metadata ([#1656](https://github.com/dirkbrnd/openinference/issues/1656)) ([ed367a2](https://github.com/dirkbrnd/openinference/commit/ed367a2707dd00d1e2fd9b7249deecd08ddd466f))
+
+
+### Bug Fixes
+
+* Added exception to span when invoke_agent throws an exception  ([#1742](https://github.com/dirkbrnd/openinference/issues/1742)) ([1027d18](https://github.com/dirkbrnd/openinference/commit/1027d185ed233edacf8cfc76993c761a3b6a8afe))
+* **bedrock:** fix test compatibility with boto3-latest ([#2243](https://github.com/dirkbrnd/openinference/issues/2243)) ([7cf5760](https://github.com/dirkbrnd/openinference/commit/7cf576059859e370a3f83b60d0e2c9ff6d6971b7))
+* **bedrock:** fixing invoke model api calls ([#1760](https://github.com/dirkbrnd/openinference/issues/1760)) ([0ce91a5](https://github.com/dirkbrnd/openinference/commit/0ce91a5da29c36160b16da7194c4c59dca24bed4))
+* **bedrock:** Included apipath into metadata ([#1775](https://github.com/dirkbrnd/openinference/issues/1775)) ([081d630](https://github.com/dirkbrnd/openinference/commit/081d630d2147134574cf2dd47630592d58e5f00d))
+* ruff formating fix & bump ruff version in dev requirements ([#1600](https://github.com/dirkbrnd/openinference/issues/1600)) ([076bb79](https://github.com/dirkbrnd/openinference/commit/076bb7966d44fccdb2ab94e6f379ef4ae22c39b1))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+
 ## [0.1.31](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-bedrock-v0.1.30...python-openinference-instrumentation-bedrock-v0.1.31) (2025-10-10)
 
 

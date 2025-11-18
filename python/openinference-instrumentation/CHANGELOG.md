@@ -1,5 +1,35 @@
 # Changelog
 
+## [0.1.43](https://github.com/dirkbrnd/openinference/compare/python-openinference-instrumentation-v0.1.42...python-openinference-instrumentation-v0.1.43) (2025-11-18)
+
+
+### Features
+
+* add context manager for capturing openinference spans ([#1781](https://github.com/dirkbrnd/openinference/issues/1781)) ([aab3386](https://github.com/dirkbrnd/openinference/commit/aab33868276627705f3e83fe8898429b71a23695))
+* add instrumentation for google-adk ([#1759](https://github.com/dirkbrnd/openinference/issues/1759)) ([aeb1769](https://github.com/dirkbrnd/openinference/commit/aeb17692d30cd8112bcad0990f1ec56491a59962))
+* Agno instrumentor ([#1603](https://github.com/dirkbrnd/openinference/issues/1603)) ([50f30e2](https://github.com/dirkbrnd/openinference/commit/50f30e26b5fcc074cc8a7dbbc34e9c11b7af0e41))
+* Allow to hide llm.prompts span from trace config ([#1863](https://github.com/dirkbrnd/openinference/issues/1863)) ([7d633d8](https://github.com/dirkbrnd/openinference/commit/7d633d8fcf6ab5dbd8596a5900f3982db8e88d89))
+* increase default span attribute count limit to 10,000 ([#2042](https://github.com/dirkbrnd/openinference/issues/2042)) ([0e90576](https://github.com/dirkbrnd/openinference/commit/0e90576cd841c73f561ffbb98d9a39cfe035509d))
+* **instrumentation:** add dangerously_using_project context manager ([#2134](https://github.com/dirkbrnd/openinference/issues/2134)) ([aed9db0](https://github.com/dirkbrnd/openinference/commit/aed9db05b93d1ae0cb7d8a49977de1926b038740))
+* **instrumentation:** add helpers for remaining semantic conventions ([#1606](https://github.com/dirkbrnd/openinference/issues/1606)) ([cb3d4fa](https://github.com/dirkbrnd/openinference/commit/cb3d4fa5f0b5d3281c60fa02fa9219813218e815))
+* **litellm:** align embedding instrumentation with pending spec ([#2238](https://github.com/dirkbrnd/openinference/issues/2238)) ([d03047d](https://github.com/dirkbrnd/openinference/commit/d03047d880fc5538ba1b2fcbb37812a665905d33))
+* **openai:** standardize completions to indexed attribute format ([#2242](https://github.com/dirkbrnd/openinference/issues/2242)) ([478d17a](https://github.com/dirkbrnd/openinference/commit/478d17a5433bd6119a8d501899a5eadbd2accccf))
+* pydanticai instrumentation ([#1639](https://github.com/dirkbrnd/openinference/issues/1639)) ([d8c5b9c](https://github.com/dirkbrnd/openinference/commit/d8c5b9cdf793dcce247b2ea852c28eba3a1989bc))
+* **python:** get_first_span_id via a context manager ([#2013](https://github.com/dirkbrnd/openinference/issues/2013)) ([b0b080c](https://github.com/dirkbrnd/openinference/commit/b0b080c564a2fb72b8f6796cad603f0166bcc767))
+
+
+### Bug Fixes
+
+* Enable sampling when using OpenInference tracer ([#1782](https://github.com/dirkbrnd/openinference/issues/1782)) ([b4007cf](https://github.com/dirkbrnd/openinference/commit/b4007cffc5857028d6004aebd369877cab96d801))
+* Update build flies and CI env to include Python3.14  ([#2294](https://github.com/dirkbrnd/openinference/issues/2294)) ([48b7a51](https://github.com/dirkbrnd/openinference/commit/48b7a515cde2180f590a5a370a73d5ce1c73501d))
+* update lower bound on openinference-semantic-conventions ([#1567](https://github.com/dirkbrnd/openinference/issues/1567)) ([c2f428c](https://github.com/dirkbrnd/openinference/commit/c2f428c5916c3dd62cf6670358f37111d4f7fd25))
+* version upper bound on wrapt &lt;2.0 ([#2325](https://github.com/dirkbrnd/openinference/issues/2325)) ([57a4fa3](https://github.com/dirkbrnd/openinference/commit/57a4fa3329327bea41d6498c992d32ad87fd334c))
+
+
+### Documentation
+
+* update readmes for development setup and fixes ([#1629](https://github.com/dirkbrnd/openinference/issues/1629)) ([7b211b3](https://github.com/dirkbrnd/openinference/commit/7b211b3b1624ab433ba35568112f0a1d8964456f))
+
 ## [0.1.42](https://github.com/Arize-ai/openinference/compare/python-openinference-instrumentation-v0.1.41...python-openinference-instrumentation-v0.1.42) (2025-11-05)
 
 
